@@ -6,7 +6,6 @@
     "commit": "git-cz",
     "dev": "vite --port 8080",
     "build": "tsc && vite build",
-    "prepare": "husky install",
     "preview": "vite preview",
     "release": "semantic-release"
   },
@@ -19,7 +18,6 @@
     "@types/webpack-bundle-analyzer": "^4.6.0",
     "commitizen": "^4.2.6",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "^8.0.3",
     "semantic-release": "^19.0.5",
     "three": "^0.148.0",
     "typescript": "^4.9.3",
