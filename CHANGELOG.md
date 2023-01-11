@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/severiano-flavio/threegame/compare/v1.1.0...v1.2.0) (2023-01-11)
+
+
+### Features
+
+* ajusta camera ([9e558d9](https://github.com/severiano-flavio/threegame/commit/9e558d90828f253269f324f9fdccb2a1318362f3))
+
 # [1.1.0](https://github.com/severiano-flavio/threegame/compare/v1.0.0...v1.1.0) (2023-01-11)
 
 
