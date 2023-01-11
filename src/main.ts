@@ -27,8 +27,10 @@ function onDocumentKeyDown(event: KeyboardEvent) {
     var keyCode = event.code;
     if (keyCode == 'KeyD') {
 			knight.position.x += xSpeed;
+			camera.position.x += xSpeed;
     } else if (keyCode == 'KeyA') {
       knight.position.x -= xSpeed;
+			camera.position.x -= xSpeed;
 		}
 };
 
