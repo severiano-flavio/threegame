@@ -19,6 +19,19 @@ renderer.setSize(window.innerWidth, window.innerHeight)
 
 document.querySelector<HTMLDivElement>('#app')!.appendChild(renderer.domElement);
 
+var xSpeed = 0.2
+
+document.addEventListener("keydown", onDocumentKeyDown, false);
+
+function onDocumentKeyDown(event: KeyboardEvent) {
+    var keyCode = event.code;
+    if (keyCode == 'KeyD') {
+			knight.position.x += xSpeed;
+    } else if (keyCode == 'KeyA') {
+      knight.position.x -= xSpeed;
+		}
+};
+
 renderer.setAnimationLoop(() => {
 	knight.rotation.x += 0.01;
 	knight.rotation.y += 0.01;
