@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/severiano-flavio/threegame/compare/v1.0.0...v1.1.0) (2023-01-11)
+
+
+### Features
+
+* insere movimentação de personagem ([8b5e774](https://github.com/severiano-flavio/threegame/commit/8b5e77455defa331c41f626097e22062dba50990))
+
 # 1.0.0 (2023-01-10)
 
 
